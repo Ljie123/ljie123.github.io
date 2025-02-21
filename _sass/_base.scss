@@ -821,6 +821,11 @@ footer.sticky-bottom {
           }
         }
       }
+	  
+	  .ccf {
+        color: var(--global-theme-color) !important;
+        border: 20px solid var(--global-theme-color);
+      }
 
       .hidden {
         font-size: 0.875rem;
