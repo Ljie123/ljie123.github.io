@@ -1,27 +1,162 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@inproceedings{wang2022odin,
-  title={Odin: on-demand instrumentation with on-the-fly recompilation},
-  author={Wang, Mingzhe and Liang, Jie and Zhou, Chijin and Wu, Zhiyong and Xu, Xinyi and Jiang, Yu},
-  booktitle={Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation},
-  pages={1010--1024},
-  year={2022},
-  bibtex_show={true},
-  abbr={PLDI'22},
-  ccf={CCF-A}
+@article{fu2025understanding,
+  title={Understanding and Detecting SQL Function Bugs},
+  author={Fu, Jingzhou and Liang*, Jie and Wu, Zhiyong and Zhao, Yanyang and Li, Shanshan and Jiang, Yu},
+  year={2025},
+  selected={true},
+  abbr={EuroSys'25}
 }
 
-@inproceedings{wang2021industrial,
-  title={Industrial Oriented Evaluation of Fuzzing Techniques},
-  author={Wang, Mingzhe and Liang, Jie and Zhou, Chijin and Chen, Yuanliang and Wu, Zhiyong and Jiang, Yu},
-  booktitle={2021 14th IEEE Conference on Software Testing, Verification and Validation (ICST)},
-  pages={306--317},
-  year={2021},
-  organization={IEEE},
-  abbr={ICST'21},
+@inproceedings{deng2025coni,
+  title={CONI: Detecting Database Connector Bugs via State-Aware Test Case Generation},
+  author={Deng, Wenqian and Liang*, Jie and Wu, Zhiyong and Fu, Jingzhou and Wang, Mingzhe and Jiang, Yu},
+  booktitle={Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},
+  pages={1--12},
+  year={2025},
+  abbr={ICSE'25},
+  selected={false},
+}
+
+@inproceedings{wu2024puppy,
+  title={PUPPY: Finding Performance Degradation Bugs in DBMSs via Limited-Optimization Plan Construction},
+  author={Wu, Zhiyong and Liang*, Jie and Fu, Jingzhou and Wang, Mingzhe and Jiang, Yu},
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)},
+  pages={560--571},
+  year={2025},
+  organization={IEEE Computer Society},
+  abbr={ICSE'25},
+  selected={true},
+}
+
+@inproceedings{fu2024thanos,
+  title={THANOS: DBMS Bug Detection via Storage Engine Rotation Based Differential Testing},
+  author={Fu, Ying and Wu, Zhiyong and Zhang, Yuanliang and Liang, Jie and Fu, Jingzhou and Jiang, Yu and Li, Shanshan and Liao, Xiangke},
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)},
+  pages={1--12},
+  year={2025},
+  abbr={ICSE'25},
+  organization={IEEE Computer Society}
+}
+
+@inproceedings{fse24-fuzz-llm,
+  author       = {Yu Jiang and
+                  Jie Liang and
+                  Fuchen Ma and
+                  Yuanliang Chen and
+                  Chijin Zhou and
+                  Yuheng Shen and
+                  Zhiyong Wu and
+                  Jingzhou Fu and
+                  Mingzhe Wang and
+                  Shanshan Li and
+                  Quan Zhang},
+  editor       = {Marcelo d'Amorim},
+  title        = {When Fuzzing Meets LLMs: Challenges and Opportunities},
+  booktitle    = {Companion Proceedings of the 32nd {ACM} International Conference on
+                  the Foundations of Software Engineering},
+  pages        = {492--496},
+  publisher    = {{ACM}},
+  year         = {2024},
+  pdf          = {https://doi.org/10.1145/3663529.3663784},
+  doi          = {10.1145/3663529.3663784},
+  abbr={FSE-IVR'24},
+   selected={false},
+}
+
+@inproceedings{fse24-dodrio,
+  author       = {Jie Liang and
+                  Mingzhe Wang and
+                  Chijin Zhou and
+                  Zhiyong Wu and
+                  Jianzhong Liu and
+                  Yu Jiang},
+  editor       = {Marcelo d'Amorim},
+  title        = {Dodrio: Parallelizing Taint Analysis Based Fuzzing via Redundancy-Free
+                  Scheduling},
+  booktitle    = {Companion Proceedings of the 32nd {ACM} International Conference on
+                  the Foundations of Software Engineering},
+  pages        = {244--254},
+  publisher    = {{ACM}},
+  year         = {2024},
+  pdf          = {https://doi.org/10.1145/3663529.3663844},
+  doi          = {10.1145/3663529.3663844},
+  abbr={FSE-Industry'24},
+  selected={false},
+}
+
+
+@inproceedings{sec24-datacov,
+  author       = {Mingzhe Wang and
+                  Jie Liang and
+                  Chijin Zhou and
+                  Zhiyong Wu and
+                  Jingzhou Fu and
+                  Zhuo Su and
+                  Qing Liao and
+                  Bin Gu and
+                  Bodong Wu and
+                  Yu Jiang},
+  title        = {Data Coverage for Guided Fuzzing},
+  booktitle    = {33th {USENIX} Security Symposium},
+  publisher    = {{USENIX} Association},
+  year         = {2024},
+  selected={true},
+  pdf={https://www.usenix.org/conference/usenixsecurity24/presentation/wang-mingzhe},
+  code={https://github.com/THU-WingTecher/wingfuzz},
+  abbr={USENIX Security'24},
+  award={USENIX Security Distinguished Paper Award}
+}
+
+@inproceedings{liang2024wingfuzz,
+  title={WingFuzz: Implementing continuous fuzzing for DBMSs},
+  author={Liang*, Jie and Wu, Zhiyong and Fu, Jingzhou and Bai, Yiyuan and Zhang, Qiang and Jiang, Yu},
+  booktitle={2024 USENIX Annual Technical Conference (USENIX ATC 24)},
+  pages={479--492},
+  year={2024},
+  abbr={ATC'24},
+  selected={true},
+}
+
+@inproceedings{liang2024mozi,
+  title={Mozi: Discovering DBMS Bugs via Configuration-Based Equivalent Transformation},
+  author={Liang*, Jie and Wu, Zhiyong and Fu, Jingzhou and Wang, Mingzhe and Sun, Chengnian and Jiang, Yu},
+  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+  pages={1--12},
+  year={2024},
+  abbr={ICSE'24},
+  selected={true},
+}
+
+@inproceedings{fu2024sedar,
+  title={Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer},
+  author={Fu, Jingzhou and Liang*, Jie and Wu, Zhiyong and Jiang, Yu},
+  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+  pages={1--12},
+  year={2024},
+  abbr={ICSE'24},
+  selected={false},
+}
+
+
+@inproceedings{seip23-daisy,
+  author       = {Mingrui Zhang and
+                  Chijin Zhou and
+                  Jianzhong Liu and
+                  Mingzhe Wang and
+                  Jie Liang and
+                  Juan Zhu and
+                  Yu Jiang},
+  title        = {Daisy: Effective Fuzz Driver Synthesis with Object Usage Sequence
+                  Analysis},
+  booktitle    = {45th {IEEE/ACM} International Conference on Software Engineering:
+                  Software Engineering in Practice},
+  pages        = {87--98},
+  publisher    = {{IEEE}},
+  year         = {2023},
+  pdf          = {https://doi.org/10.1109/ICSE-SEIP58684.2023.00013},
+  doi          = {10.1109/ICSE-SEIP58684.2023.00013},
+  abbr={ICSE-SEIP'23},
 }
 
 @inproceedings{liang2023sequence,
@@ -30,47 +165,21 @@
   booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
   pages={668--681},
   year={2023},
-  organization={IEEE}
-}
-
-@article{chen2018enfuzz,
-  title={Enfuzz: From ensemble learning to ensemble fuzzing},
-  author={Chen, Yuanliang and Jiang, Yu and Liang, Jie and Wang, Mingzhe and Jiao, Xun},
-  journal={arXiv preprint arXiv:1807.00182},
-  year={2018}
-}
-
-@inproceedings{zhang2023daisy,
-  title={Daisy: Effective Fuzz Driver Synthesis with Object Usage Sequence Analysis},
-  author={Zhang, Mingrui and Zhou, Chijin and Liu, Jianzhong and Wang, Mingzhe and Liang, Jie and Zhu, Juan and Jiang, Yu},
-  booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
-  pages={87--98},
-  year={2023},
-  organization={IEEE}
-}
-
-@inproceedings{chen2019enfuzz,
-  title={$\{$EnFuzz$\}$: Ensemble fuzzing with seed synchronization among diverse fuzzers},
-  author={Chen, Yuanliang and Jiang, Yu and Ma, Fuchen and Liang, Jie and Wang, Mingzhe and Zhou, Chijin and Jiao, Xun and Su, Zhuo},
-  booktitle={28th USENIX Security Symposium (USENIX Security 19)},
-  pages={1967--1983},
-  year={2019}
+  organization={IEEE},
+  bibtex_show={true},
+  abbr={ICDE'23},
+  selected={true},
 }
 
 @inproceedings{fu2022griffin,
   title={Griffin: Grammar-free DBMS fuzzing},
-  author={Fu, Jingzhou and Liang, Jie and Wu, Zhiyong and Wang, Mingzhe and Jiang, Yu},
+  author={Fu, Jingzhou and Liang*, Jie and Wu, Zhiyong and Wang, Mingzhe and Jiang, Yu},
   booktitle={Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
   pages={1--12},
-  year={2022}
-}
-
-@inproceedings{zhou2022minerva,
-  title={Minerva: browser API fuzzing with dynamic mod-ref analysis},
-  author={Zhou, Chijin and Zhang, Quan and Wang, Mingzhe and Guo, Lihua and Liang, Jie and Liu, Zhe and Payer, Mathias and Jiang, Yu},
-  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
-  pages={1135--1147},
-  year={2022}
+  year={2022},
+  bibtex_show={true},
+  abbr={ASE'22},
+  selected={false},
 }
 
 @article{yu2022mercury,
@@ -81,83 +190,171 @@
   number={11},
   pages={4504--4515},
   year={2022},
-  publisher={IEEE}
+  publisher={IEEE},
+  bibtex_show={false},
+  abbr={EMSoft'22},
 }
 
-@inproceedings{wang2021industry,
-  title={Industry practice of coverage-guided enterprise-level DBMS fuzzing},
-  author={Wang, Mingzhe and Wu, Zhiyong and Xu, Xinyi and Liang, Jie and Zhou, Chijin and Zhang, Huafeng and Jiang, Yu},
-  booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
-  pages={328--337},
-  year={2021},
-  organization={IEEE}
+@inproceedings{fse22-minerva,
+  author       = {Chijin Zhou and
+                  Quan Zhang and
+                  Mingzhe Wang and
+                  Lihua Guo and
+                  Jie Liang* and
+                  Zhe Liu and
+                  Mathias Payer and
+                  Yu Jiang},
+  editor       = {Abhik Roychoudhury and
+                  Cristian Cadar and
+                  Miryung Kim},
+  title        = {Minerva: browser {API} fuzzing with dynamic mod-ref analysis},
+  booktitle    = {30th {ACM} Joint European Software Engineering
+                  Conference and Symposium on the Foundations of Software Engineering},
+  pages        = {1135--1147},
+  publisher    = {{ACM}},
+  year         = {2022},
+  url          = {https://doi.org/10.1145/3540250.3549107},
+  doi          = {10.1145/3540250.3549107},
+  selected={true},
+  abbr={ESEC/FSE'22},
+  award={ACM SIGSOFT Distinguished Paper Award}
 }
 
-@inproceedings{wu2022unicorn,
-  title={Unicorn: detect runtime errors in time-series databases with hybrid input synthesis},
-  author={Wu, Zhiyong and Liang, Jie and Wang, Mingzhe and Zhou, Chijin and Jiang, Yu},
-  booktitle={Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis},
-  pages={251--262},
-  year={2022}
+@inproceedings{issta22-unicorn,
+  author       = {Zhiyong Wu and
+                  Jie Liang and
+                  Mingzhe Wang and
+                  Chijin Zhou and
+                  Yu Jiang},
+  editor       = {Sukyoung Ryu and
+                  Yannis Smaragdakis},
+  title        = {Unicorn: detect runtime errors in time-series databases with hybrid
+                  input synthesis},
+  booktitle    = {31st {ACM} {SIGSOFT} International Symposium on Software
+                  Testing and Analysis},
+  pages        = {251--262},
+  publisher    = {{ACM}},
+  year         = {2022},
+  pdf          = {https://doi.org/10.1145/3533767.3534364},
+  doi          = {10.1145/3533767.3534364},
+  abbr={ISSTA'22},
+  selected={false},
 }
 
-@inproceedings{gu2022group,
-  title={Group-based corpus scheduling for parallel fuzzing},
-  author={Gu, Taotao and Li, Xiang and Lu, Shuaibing and Tian, Jianwen and Nie, Yuanping and Kuang, Xiaohui and Lin, Zhechao and Liu, Chenyifan and Liang, Jie and Jiang, Yu},
-  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
-  pages={1521--1532},
-  year={2022}
+@inproceedings{pldi22-odin,
+  author       = {Mingzhe Wang and
+                  Jie Liang* and
+                  Chijin Zhou and
+                  Zhiyong Wu and
+                  Xinyi Xu and
+                  Yu Jiang},
+  editor       = {Ranjit Jhala and
+                  Isil Dillig},
+  title        = {Odin: on-demand instrumentation with on-the-fly recompilation},
+  booktitle    = {43rd {ACM} {SIGPLAN} International Conference on Programming
+                  Language Design and Implementation},
+  pages        = {1010--1024},
+  publisher    = {{ACM}},
+  year         = {2022},
+  pdf          = {https://doi.org/10.1145/3519939.3523428},
+  doi          = {10.1145/3519939.3523428},
+  abbr={PLDI'22},
+  selected={false},
 }
 
-@inproceedings{wang2021riff,
-  title={$\{$RIFF$\}$: Reduced instruction footprint for $\{$Coverage-Guided$\}$ fuzzing},
-  author={Wang, Mingzhe and Liang, Jie and Zhou, Chijin and Jiang, Yu and Wang, Rui and Sun, Chengnian and Sun, Jiaguang},
-  booktitle={2021 USENIX Annual Technical Conference (USENIX ATC 21)},
-  pages={147--159},
-  year={2021}
+@inproceedings{sp22-pata,
+  author       = {Jie Liang and
+                  Mingzhe Wang and
+                  Chijin Zhou and
+                  Zhiyong Wu and
+                  Yu Jiang and
+                  Jianzhong Liu and
+                  Zhe Liu and
+                  Jiaguang Sun},
+  title        = {{PATA:} Fuzzing with Path Aware Taint Analysis},
+  booktitle    = {43rd {IEEE} Symposium on Security and Privacy},
+  pages        = {1--17},
+  publisher    = {{IEEE}},
+  year         = {2022},
+  pdf          = {https://doi.org/10.1109/SP46214.2022.9833594},
+  doi          = {10.1109/SP46214.2022.9833594},
+  selected={true},
+  abbr={S&P'22},
 }
 
-@inproceedings{liang2019engineering,
-  title={Engineering a better fuzzer with synergically integrated optimizations},
-  author={Liang, Jie and Chen, Yuanliang and Wang, Mingzhe and Jiang, Yu and Yang, Zijiang and Sun, Chengnian and Jiao, Xun and Sun, Jiaguang},
-  booktitle={2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE)},
-  pages={82--92},
-  year={2019},
-  organization={IEEE}
+@inproceedings{atc21-riff,
+  author       = {Mingzhe Wang and
+                  Jie Liang and
+                  Chijin Zhou and
+                  Yu Jiang and
+                  Rui Wang and
+                  Chengnian Sun and
+                  Jiaguang Sun},
+  editor       = {Irina Calciu and
+                  Geoff Kuenning},
+  title        = {{RIFF:} Reduced Instruction Footprint for Coverage-Guided Fuzzing},
+  booktitle    = {the 2021 {USENIX} Annual Technical Conference},
+  pages        = {147--159},
+  publisher    = {{USENIX} Association},
+  year         = {2021},
+  pdf          = {https://www.usenix.org/conference/atc21/presentation/wang-mingzhe},
+  abbr={ATC'21},
 }
 
-@inproceedings{liang2018fuzz,
-  title={Fuzz testing in practice: Obstacles and solutions},
-  author={Liang, Jie and Wang, Mingzhe and Chen, Yuanliang and Jiang, Yu and Zhang, Renwei},
-  booktitle={2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)},
-  pages={562--566},
-  year={2018},
-  organization={IEEE}
+@inproceedings{seip21-industrial-dbms,
+  author       = {Mingzhe Wang and
+                  Zhiyong Wu and
+                  Xinyi Xu and
+                  Jie Liang and
+                  Chijin Zhou and
+                  Huafeng Zhang and
+                  Yu Jiang},
+  title        = {Industry Practice of Coverage-Guided Enterprise-Level {DBMS} Fuzzing},
+  booktitle    = {43rd {IEEE/ACM} International Conference on Software Engineering:
+                  Software Engineering in Practice},
+  pages        = {328--337},
+  publisher    = {{IEEE}},
+  year         = {2021},
+  pdf          = {https://doi.org/10.1109/ICSE-SEIP52600.2021.00042},
+  doi          = {10.1109/ICSE-SEIP52600.2021.00042},
+  abbr={ICSE-SEIP'21},
 }
 
-@inproceedings{liang2022pata,
-  title={Pata: Fuzzing with path aware taint analysis},
-  author={Liang, Jie and Wang, Mingzhe and Zhou, Chijin and Wu, Zhiyong and Jiang, Yu and Liu, Jianzhong and Liu, Zhe and Sun, Jiaguang},
-  booktitle={2022 IEEE Symposium on Security and Privacy (SP)},
-  pages={1--17},
-  year={2022},
-  organization={IEEE}
+@inproceedings{icst21-industrial,
+  author       = {Mingzhe Wang and
+                  Jie Liang and
+                  Chijin Zhou and
+                  Yuanliang Chen and
+                  Zhiyong Wu and
+                  Yu Jiang},
+  title        = {Industrial Oriented Evaluation of Fuzzing Techniques},
+  booktitle    = {14th {IEEE} Conference on Software Testing, Verification and Validation},
+  pages        = {306--317},
+  publisher    = {{IEEE}},
+  year         = {2021},
+  pdf          = {https://doi.org/10.1109/ICST49551.2021.00043},
+  doi          = {10.1109/ICST49551.2021.00043},
+  abbr={ICST'21},
+  ccf={CCF-C}
 }
 
-@inproceedings{liang2018pafl,
-  title={Pafl: extend fuzzing optimizations of single mode to industrial parallel mode},
-  author={Liang, Jie and Jiang, Yu and Chen, Yuanliang and Wang, Mingzhe and Zhou, Chijin and Sun, Jiaguang},
-  booktitle={Proceedings of the 2018 26th ACM joint meeting on European software engineering conference and symposium on the foundations of software engineering},
-  pages={809--814},
-  year={2018}
-}
-
-@inproceedings{wang2018safl,
-  title={SAFL: increasing and accelerating testing coverage with symbolic execution and guided fuzzing},
-  author={Wang, Mingzhe and Liang, Jie and Chen, Yuanliang and Jiang, Yu and Jiao, Xun and Liu, Han and Zhao, Xibin and Sun, Jiaguang},
-  booktitle={Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings},
-  pages={61--64},
-  year={2018}
+@inproceedings{ase20-zeror,
+  author       = {Chijin Zhou and
+                  Mingzhe Wang and
+                  Jie Liang and
+                  Zhe Liu and
+                  Yu Jiang},
+  title        = {Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling},
+  booktitle    = {35th {IEEE/ACM} International Conference on Automated Software Engineering},
+  pages        = {858--870},
+  publisher    = {{IEEE}},
+  year         = {2020},
+  url          = {https://doi.org/10.1145/3324884.3416572},
+  doi          = {10.1145/3324884.3416572},
+  timestamp    = {Tue, 07 May 2024 20:05:40 +0200},
+  selected={false},
+  pdf={https://doi.org/10.1145/3324884.3416572},
+  abbr={ASE'20},
 }
 
 @article{liang2019deepfuzzer,
@@ -168,123 +365,115 @@
   number={6},
   pages={2675--2688},
   year={2019},
-  publisher={IEEE}
+  publisher={IEEE},
+  abbr={TDSC},
+  selected={false},
 }
 
-@inproceedings{zhou2020zeror,
-  title={Zeror: Speed up fuzzing with coverage-sensitive tracing and scheduling},
-  author={Zhou, Chijin and Wang, Mingzhe and Liang, Jie and Liu, Zhe and Jiang, Yu},
-  booktitle={Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering},
-  pages={858--870},
-  year={2020}
+@inproceedings{ase19-visfuzz,
+  author       = {Chijin Zhou and
+                  Mingzhe Wang and
+                  Jie Liang and
+                  Zhe Liu and
+                  Chengnian Sun and
+                  Yu Jiang},
+  title        = {VisFuzz: Understanding and Intervening Fuzzing with Interactive Visualization},
+  booktitle    = {34th {IEEE/ACM} International Conference on Automated Software Engineering},
+  pages        = {1078--1081},
+  publisher    = {{IEEE}},
+  year         = {2019},
+  pdf          = {https://doi.org/10.1109/ASE.2019.00106},
+  doi          = {10.1109/ASE.2019.00106},
+  code={https://github.com/ChijinZ/VisFuzz},
+  abbr={ASE'19 Demo},
 }
 
-@inproceedings{zhou2019visfuzz,
-  title={Visfuzz: Understanding and intervening fuzzing with interactive visualization},
-  author={Zhou, Chijin and Wang, Mingzhe and Liang, Jie and Liu, Zhe and Sun, Chengnian and Jiang, Yu},
-  booktitle={2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  pages={1078--1081},
+@inproceedings{liang2019engineering,
+  title={Engineering a better fuzzer with synergically integrated optimizations},
+  author={Liang, Jie and Chen, Yuanliang and Wang, Mingzhe and Jiang, Yu and Yang, Zijiang and Sun, Chengnian and Jiao, Xun and Sun, Jiaguang},
+  booktitle={2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE)},
+  pages={82--92},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  abbr={ISSRE'19},
+  ccf={CCF-B}
 }
 
-@inproceedings{liang2024mozi,
-  title={Mozi: Discovering DBMS Bugs via Configuration-Based Equivalent Transformation},
-  author={Liang, Jie and Wu, Zhiyong and Fu, Jingzhou and Wang, Mingzhe and Sun, Chengnian and Jiang, Yu},
-  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
-  pages={1--12},
-  year={2024}
+
+@inproceedings{sec19-enfuzz,
+  author       = {Yuanliang Chen and
+                  Yu Jiang and
+                  Fuchen Ma and
+                  Jie Liang and
+                  Mingzhe Wang and
+                  Chijin Zhou and
+                  Xun Jiao and
+                  Zhuo Su},
+  editor       = {Nadia Heninger and
+                  Patrick Traynor},
+  title        = {EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers},
+  booktitle    = {28th {USENIX} Security Symposium},
+  pages        = {1967--1983},
+  publisher    = {{USENIX} Association},
+  year         = {2019},
+  pdf={https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yuanliang},
+  abbr={USENIX Security'19},
 }
 
-@inproceedings{deng2025coni,
-  title={CONI: Detecting Database Connector Bugs via State-Aware Test Case Generation},
-  author={Deng, Wenqian and Liang, Jie and Wu, Zhiyong and Fu, Jingzhou and Wang, Mingzhe and Jiang, Yu},
-  booktitle={Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},
-  pages={1--12},
-  year={2025},
-  abbr={ICSE'25},
-  selected={true},
+@inproceedings{fse18-pafl,
+  author       = {Jie Liang and
+                  Yu Jiang and
+                  Yuanliang Chen and
+                  Mingzhe Wang and
+                  Chijin Zhou and
+                  Jiaguang Sun},
+  editor       = {Gary T. Leavens and
+                  Alessandro Garcia and
+                  Corina S. Pasareanu},
+  title        = {{PAFL:} extend fuzzing optimizations of single mode to industrial
+                  parallel mode},
+  booktitle    = {26th {ACM} Joint Meeting on European Software Engineering
+                  Conference and Symposium on the Foundations of Software Engineering},
+  pages        = {809--814},
+  publisher    = {{ACM}},
+  year         = {2018},
+  pdf          = {https://doi.org/10.1145/3236024.3275525},
+  doi          = {10.1145/3236024.3275525},
+  abbr={FSE-Industry'18},
 }
 
-@inproceedings{wang2024data,
-  title={Data coverage for guided fuzzing},
-  author={Wang, Mingzhe and Liang, Jie and Zhou, Chijin and Wu, Zhiyong and Fu, Jingzhou and Su, Zhuo and Liao, Qing and Gu, Bin and Wu, Bodong and Jiang, Yu},
-  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
-  pages={2511--2526},
-  year={2024}
-}
 
-@inproceedings{jiang2024fuzzing,
-  title={When fuzzing meets llms: Challenges and opportunities},
-  author={Jiang, Yu and Liang, Jie and Ma, Fuchen and Chen, Yuanliang and Zhou, Chijin and Shen, Yuheng and Wu, Zhiyong and Fu, Jingzhou and Wang, Mingzhe and Li, Shanshan and others},
-  booktitle={Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering},
-  pages={492--496},
-  year={2024}
-}
-
-@inproceedings{fu2024thanos,
-  title={THANOS: DBMS Bug Detection via Storage Engine Rotation Based Differential Testing},
-  author={Fu, Ying and Wu, Zhiyong and Zhang, Yuanliang and Liang, Jie and Fu, Jingzhou and Jiang, Yu and Li, Shanshan and Liao, Xiangke},
-  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)},
-  pages={1--12},
-  year={2024},
-  organization={IEEE Computer Society}
-}
-
-@inproceedings{wu2024puppy,
-  title={PUPPY: Finding Performance Degradation Bugs in DBMSs via Limited-Optimization Plan Construction},
-  author={Wu, Zhiyong and Liang, Jie and Fu, Jingzhou and Wang, Mingzhe and Jiang, Yu},
-  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)},
-  pages={560--571},
-  year={2024},
-  organization={IEEE Computer Society}
-}
-
-@inproceedings{fu2024sedar,
-  title={Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer},
-  author={Fu, Jingzhou and Liang, Jie and Wu, Zhiyong and Jiang, Yu},
-  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
-  pages={1--12},
-  year={2024}
-}
-
-@inproceedings{liang2024wingfuzz,
-  title={$\{$WingFuzz$\}$: Implementing continuous fuzzing for $\{$DBMSs$\}$},
-  author={Liang, Jie and Wu, Zhiyong and Fu, Jingzhou and Bai, Yiyuan and Zhang, Qiang and Jiang, Yu},
-  booktitle={2024 USENIX Annual Technical Conference (USENIX ATC 24)},
-  pages={479--492},
-  year={2024}
-}
-
-@inproceedings{liang2024dodrio,
-  title={Dodrio: Parallelizing Taint Analysis Based Fuzzing via Redundancy-Free Scheduling},
-  author={Liang, Jie and Wang, Mingzhe and Zhou, Chijin and Wu, Zhiyong and Liu, Jianzhong and Jiang, Yu},
-  booktitle={Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering},
-  pages={244--254},
-  year={2024}
-}
-
-@article{fu2025understanding,
-  title={Understanding and Detecting SQL Function Bugs},
-  author={Fu, Jingzhou and Liang, Jie and Wu, Zhiyong and Zhao, Yanyang and Li, Shanshan and Jiang, Yu},
-  year={2025},
-  selected={true},
-  abbr={EuroSys'25}
+@inproceedings{liang2018fuzz,
+  title={Fuzz testing in practice: Obstacles and solutions},
+  author={Liang, Jie and Wang, Mingzhe and Chen, Yuanliang and Jiang, Yu and Zhang, Renwei},
+  booktitle={2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)},
+  pages={562--566},
+  year={2018},
+  organization={IEEE},
+  abbr={SANER'18},
+  ccf={CCF-B}
 }
 
 
 
+@inproceedings{gu2022group,
+  title={Group-based corpus scheduling for parallel fuzzing},
+  author={Gu, Taotao and Li, Xiang and Lu, Shuaibing and Tian, Jianwen and Nie, Yuanping and Kuang, Xiaohui and Lin, Zhechao and Liu, Chenyifan and Liang, Jie and Jiang, Yu},
+  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={1521--1532},
+  year={2022},
+  abbr={FSE-Industry'22},
+}
 
 
-
-
-
-
-
-
-
-
-
+@inproceedings{wang2018safl,
+  title={SAFL: increasing and accelerating testing coverage with symbolic execution and guided fuzzing},
+  author={Wang, Mingzhe and Liang, Jie and Chen, Yuanliang and Jiang, Yu and Jiao, Xun and Liu, Han and Zhao, Xibin and Sun, Jiaguang},
+  booktitle={Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings},
+  pages={61--64},
+  year={2018},
+  abbr={ICSE-Demo'18},
+}
 
 
 
