@@ -244,13 +244,12 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
-      
+
       {% if entry.ccf %}
         <a class="btn btn-sm z-depth-0" style="font-weight:bold;border-style: dashed;pointer-events: none;border-color: gray">{{ entry.ccf }}</a>
       {% else %}
         <a class="btn btn-sm z-depth-0" style="font-weight:bold;border-style: dashed;pointer-events: none;border-color: gray">CCF-A</a>
       {% endif %}
-
     </div>
 
     {% if site.enable_publication_badges %}
@@ -344,15 +343,13 @@
       </div>
     {% endif %}
 
-
     {% if entry.award %}
       <div class="award">
-      <p style="line-height: 40px;">
-      <img src="/assets/img/award.svg" height="40" width="40" style="display: inline-block; vertical-align: middle;">
-      <span style="display: inline-block; vertical-align: middle;color:red;font-weight:bold;">{{ entry.award }}</span>
-      </p>
+        <p style="line-height: 40px;">
+          <img src="/assets/img/award.svg" height="40" width="40" style="display: inline-block; vertical-align: middle;">
+          <span style="display: inline-block; vertical-align: middle;color:red;font-weight:bold;">{{ entry.award }}</span>
+        </p>
       </div>
     {% endif %}
-
   </div>
 </div>
