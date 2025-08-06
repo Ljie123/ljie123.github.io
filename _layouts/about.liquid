@@ -67,7 +67,10 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>Selected Publications (<a href="{{ '/publications/' | relative_url }}" style="color: blue">full list</a>)  <small style="font-size: 0.6em; color: gray; margin-right: 10px;">(* indicates the corresponding author)</small></h2> 
+      <h2>
+        Selected Publications (<a href="{{ '/publications/' | relative_url }}" style="color: blue">full list</a>)
+        <small style="font-size: 0.6em; color: gray; margin-right: 10px;">(* indicates the corresponding author)</small>
+      </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
